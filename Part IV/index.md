@@ -1,6 +1,5 @@
 ---
-title: "Part IV: Infrastructure"
+title: "Part IV: Society"
 order:
  - main.md
- - 01.md
 ---

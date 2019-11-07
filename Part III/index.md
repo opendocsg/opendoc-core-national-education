@@ -1,5 +1,5 @@
 ---
-title: "Part III: Society"
+title: "Part III: Infrastructure"
 order:
  - main.md
 ---

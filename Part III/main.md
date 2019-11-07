@@ -1,4 +1,16 @@
-# Part III: Society
+# Part III: Infrastructure
+
+## Building from scratch
+
+Living conditions were poor in the early days of independence. Singapore inherited problems that confronted many young nations, including a critical shortage of housing – about one-third of our population were living in rented sleeping cubicles or crowded squatter settlements (i.e. average of 18.2 persons living in same house) without proper sanitation, water or basic amenities. Following separation from Malaysia in 1965, our founding leaders needed to address the people’s basic needs quickly, such as housing, security, utilities, water and waste management infrastructure, taking into consideration our land constraints and lack of natural resources.   
+
+## Laying the foundations
+
+Singapore had to make the most of what little natural resources we had amidst competing demands. Our physical limitations steeled our resolve to make strategic decisions to optimise the use of land, balance potential trade-offs, and come up with innovative solutions. For instance, the State and City Planning Department, which included the Public Works Department and the Urban Renewal Department, was set up to lay the foundations for an integrated, comprehensive and long-term urban development plan for Singapore. Providing homes in housing estates all around Singapore was another urgent priority, which also helped foster a sense of ownership, belonging and social cohesion among our people. We built and enhanced our road networks, and after years of careful consideration, decided on a Mass Rapid Transit (MRT) system, supported by a network of buses, as the backbone of Singapore’s public transport. We took a far-sighted approach when planning for our future, and embarked on land reclamation, expanding our total area by more than 24% over the past 50 odd years. We also built and expanded Changi Airport and our sea ports to cater for growth in our aviation and maritime sectors. We also continuously enhanced our air traffic management capabilities to ensure high levels of safety, efficiency and connectivity for Singapore and the region. To address our lack of natural water resources, we have built a robust, diversified and sustainable water supply from our four water sources known as the Four National Taps.
+
+## Rejuvenating our home
+
+Singapore has become our endearing home – a vibrant, bustling, world-class city where locals and visitors live, work and play. Although our challenges today are vastly different from what we faced over 50 years ago, our priority remains the same – to promote economic growth and provide a good quality of life, maintaining a clean and green environment, and making the best use of our resources. There is increasing urgency to ensure that we continue to survive and thrive in the face of existential threats such as climate change. Technological innovation can help us to reimagine our urban environment, push the boundaries of ever-tightening constraints, and continuously work towards improvement. We will do more to embrace the use of technology to enhance our everyday lives, as part of our journey to become a Smart Nation. 
 
 ## Building a Multiracial Singapore
 

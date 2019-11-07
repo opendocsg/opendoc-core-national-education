@@ -1,5 +1,13 @@
-# Part IV: Infrastructure
+# Part IV: Society
 
-## Building from scratch
+## Building a Multiracial Singapore
 
-Living conditions were poor in the early days of independence. Singapore inherited problems that confronted many young nations, including a critical shortage of housing – about one-third of our population were living in rented sleeping cubicles or crowded squatter settlements (i.e. average of 18.2 persons living in same house) without proper sanitation, water or basic amenities. Following separation from Malaysia in 1965, our founding leaders needed to address the people’s basic needs quickly, such as housing, security, utilities, water and waste management infrastructure, taking into consideration our land constraints and lack of natural resources.   
+In the early days, Singapore comprised immigrants from different parts of the world. The various races stuck to their own enclaves and there were minimal interactions amongst them. One of the main reasons Singapore separated from Malaysia in 1965 was that while Singaporean leaders championed a “Malaysian Malaysia”, the Malaysian leaders wanted a Malay Malaysia. Following independence, our leaders were determined to build a Singapore for Singaporeans – regardless of race, language or religion. As a Chinese-majority country, we had to tread carefully in a Muslim-dominated region and handle matters of race and religion carefully. But one way or another, our leaders knew that it was important to unite all Singaporeans as one nation. 
+
+## Building Blocks of Harmony
+
+The experience of the racial riots in 1964 and 1969 made us determined to build a multi-racial society and never allow such riots to happen again. We put in place legislation such as the Religious Harmony Act to ensure that our people have a safe space to practise their religion. The rights of minorities are also protected and represented through group representation, and equal treatment is ensured for all, from healthcare to education, be it for the young, old or those with disabilities. To reduce enclaves and increase opportunities for all races to meet, we introduced measures such as HDB’s Ethnic Integration Policy. We taught our children values such as tolerance, trust and understanding that were needed for a harmonious society. Through commemorating events such as Racial Harmony Day, we learnt the importance of respecting one another despite our differences. National service, schools and community centres were common spaces where Singaporeans of all backgrounds, races and religions interacted and built bonds based on their shared experience as Singaporeans. 
+
+## Remaining united in a complex world
+
+Today, the social fabric of Singapore is becoming increasingly complex. Within our society, social mobility and inequality are becoming pressing challenges. There are more inter-ethnic and transnational marriages, leading to an even more complex mix than before. The influx of new immigrants and foreign talent also has the potential of creating a local-versus-foreigners divide. These are the new challenges that we face which is why we will continue to provide opportunities for Singaporeans as well as non-Singaporeans living in Singapore to interact and understand one another better. Social harmony is a work in progress.
