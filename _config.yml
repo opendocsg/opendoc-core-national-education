@@ -11,6 +11,12 @@ server_DEV: https://search-staging.opendoc.sg
 fast_build: false
 offline: false
 preload_pages: true
+
+hide_toolbar:
+  sidebar: false
+  pdf: false
+  github: true
+  
 styling_options:
   primary_brand_color: '#C0504D' 
   logo_path: /assets/logo.png 
