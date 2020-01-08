@@ -1,3 +1,0 @@
----
-title: "Part IV: Society"
----

@@ -1,5 +1,5 @@
 title: Core National Education Content #----> Required
-remote_theme: opendocsg/opendoc-theme@v2
+remote_theme: opendocsg/opendoc-theme@master
 timezone: Asia/Singapore
 repository: opendocsg/opendoc-core-national-education
 plugins:
@@ -12,13 +12,39 @@ fast_build: false
 offline: false
 preload_pages: true
 
-hide_toolbar:
-  sidebar: false
-  pdf: false
-  github: true
-  
 styling_options:
   primary_brand_color: '#C0504D' 
   logo_path: /assets/logo.png 
   opendoc_logo_path: /assets/images/logo-full.png
   feedback_url: https://form.gov.sg/5cee3d46138e3200109244df
+
+hide_toolbar:
+  sidebar: false
+  pdf: false
+  github: true
+
+folders:
+  - name: '01_defence_and_security'
+    title: 'Part I: Defence and Security'
+    subtitle: ''
+    order:
+      - "01.md"
+      - "02.md"
+  - name: "02_economy"
+    title: 'Part II: Economy'
+    subtitle: ''
+    order: 
+      - "01.md"
+      - "02.md"
+  - name: "03_infrastructure"
+    title: 'Part III: Infrastructure'
+    subtitle: ''
+    order: 
+      - "01.md"
+      - "02.md"
+  - name: "04_society"
+    title: 'Part IV: Society'
+    subtitle: ''
+    order: 
+      - "01.md"
+      - "02.md"
