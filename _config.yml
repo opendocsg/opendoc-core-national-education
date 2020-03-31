@@ -48,3 +48,8 @@ folders:
     order: 
       - "01.md"
       - "02.md"
+  - name: "05_news-in-focus"
+    title: 'Part V: News in Focus'
+    subtitle: ''
+    order: 
+      - "01.md"
