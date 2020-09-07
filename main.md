@@ -4,4 +4,4 @@ The aim of the core National Education (NE) content project is to identify and d
 
 **Framework for Core NE Content**
 
-![Alternative Text](assets/images/1.png)
+![Alternative Text](assets/1.png)
