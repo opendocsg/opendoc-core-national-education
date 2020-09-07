@@ -24,6 +24,10 @@ hide_toolbar:
   github: true
 
 folders:
+  - name: '/'
+    title: 'Introduction'
+    order:
+      - "main.md"
   - name: '01_defence_and_security'
     title: 'Part I: Defence and Security'
     subtitle: ''
