@@ -40,6 +40,11 @@ folders:
     order: 
       - "01.md"
       - "02.md"
+      - "03.md"
+      - "04.md"
+      - "05.md"
+      - "06.md"
+      - "07.md"
   - name: "03_infrastructure"
     title: 'Part III: Infrastructure'
     subtitle: ''
