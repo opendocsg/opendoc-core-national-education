@@ -62,9 +62,4 @@ folders:
       - "05.md"
       - "06.md"
       - "07.md"
-  - name: "05_news-in-focus"
-    title: 'News in Focus'
-    subtitle: ''
-    order: 
-      - "01.md"
-      - "02.md"
+
