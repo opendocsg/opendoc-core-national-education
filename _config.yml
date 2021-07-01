@@ -48,6 +48,8 @@ folders:
     order:
       - 01.md
       - 02.md
+      - 03.md
+      - 04.md
   - name: 04_society
     title: "Part IV: Society"
     subtitle: ""
