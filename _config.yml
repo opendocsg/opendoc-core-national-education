@@ -1,65 +1,61 @@
-title: Core National Education Content #----> Required
+title: SG101
 remote_theme: opendocsg/opendoc-theme@master
 timezone: Asia/Singapore
 repository: opendocsg/opendoc-core-national-education
 plugins:
   - jekyll-include-cache
-baseurl: ''
+baseurl: ""
 server_PROD: https://search.opendoc.sg
 server_DEV: https://search-staging.opendoc.sg
-
 fast_build: false
 offline: false
 preload_pages: true
-
 styling_options:
-  primary_brand_color: '#C0504D' 
-  logo_path: /assets/logo.png 
+  primary_brand_color: "#C0504D"
+  logo_path: /assets/logo.png
   opendoc_logo_path: /assets/images/logo-full.png
   feedback_url: https://form.gov.sg/5cee3d46138e3200109244df
-
+  logo_url: /
 hide_toolbar:
   sidebar: false
   pdf: false
   github: true
-
 folders:
-  - name: '/'
-    title: 'Introduction'
+  - name: /
+    title: Introduction
     order:
-      - "main.md"
-  - name: '01_defence_and_security'
-    title: 'Part I: Defence and Security'
-    subtitle: ''
+      - main.md
+  - name: 01_defence_and_security
+    title: "Part I: Defence and Security"
+    subtitle: ""
     order:
-      - "01.md"
-      - "02.md"
-  - name: "02_economy"
-    title: 'Part II: Economy'
-    subtitle: ''
-    order: 
-      - "01.md"
-      - "02.md"
-      - "03.md"
-      - "04.md"
-      - "05.md"
-      - "06.md"
-      - "07.md"
-  - name: "03_infrastructure"
-    title: 'Part III: Infrastructure'
-    subtitle: ''
-    order: 
-      - "01.md"
-      - "02.md"
-  - name: "04_society"
-    title: 'Part IV: Society'
-    subtitle: ''
-    order: 
-      - "01.md"
-      - "02.md"
-      - "03.md"
-      - "04.md"
-      - "05.md"
-      - "06.md"
-      - "07.md"
-
+      - 01.md
+      - 02.md
+  - name: 02_economy
+    title: "Part II: Economy"
+    subtitle: ""
+    order:
+      - 01.md
+      - 02.md
+      - 03.md
+      - 04.md
+      - 05.md
+      - 06.md
+      - 07.md
+  - name: 03_infrastructure
+    title: "Part III: Infrastructure"
+    subtitle: ""
+    order:
+      - 01.md
+      - 02.md
+  - name: 04_society
+    title: "Part IV: Society"
+    subtitle: ""
+    order:
+      - 01.md
+      - 02.md
+      - 03.md
+      - 04.md
+      - 05.md
+      - 06.md
+      - 07.md
