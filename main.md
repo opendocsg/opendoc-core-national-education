@@ -1,3 +1,4 @@
+# What is SG101? 
 “SG101” started out as a project to tell the stories of Singapore’s journey as a nation, and through the stories, help Singaporeans understand what makes Singapore it is today, and what makes us Singaporean. 
 
 The content is organised into four key categories – ‘Defence and Security’, ‘Economy’, ‘Infrastructure’, and ‘Society’, each covering the following broad themes:
