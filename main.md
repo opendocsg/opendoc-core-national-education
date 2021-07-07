@@ -15,7 +15,12 @@ The content is organised into four key categories – ‘Defence and Security’
 
 **‘Society’** traces how Singapore has come a long way in building and maintaining our multiracial society, from managing the communal tensions and racial riots of the 1950s and 60s, to forging a sense of belonging, inclusiveness and shared identity amongst Singaporeans. A huge part of being Singaporean is our experience of growing up in Singapore, which is the intangible aspects of the culture we share, be it in the food we eat or the Singlish we speak 
 
-We welcome educators, facilitators, students and Singaporeans who have an interest in the Singapore Story to use this site. Please also help us improve by giving us your feedback and suggestions [here](https://).  <to insert URL when ready>
+We welcome educators, facilitators, students and Singaporeans who have an interest in the Singapore Story to use this site. Please also help us improve by giving us your feedback and suggestions [here](https://go.gov.sg/sg101survey).  
 
 
 ![Alternative Text](/assets/1.png)
+	
+	
+	
+*Copyright © 2021, Nexus. <br>
+You can find out more about Nexus [here](https://https://www.mindef.gov.sg/oms/nexus/index.html). *
