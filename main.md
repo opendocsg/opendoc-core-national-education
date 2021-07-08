@@ -23,4 +23,4 @@ We welcome educators, facilitators, students and Singaporeans who have an intere
 	
 	
 *Copyright © 2021, Nexus. <br>
-You can find out more about Nexus [here](https://www.mindef.gov.sg/oms/nexus/index.html). *
+You can find out more about Nexus [here](https://www.mindef.gov.sg/oms/nexus/index.html).*
