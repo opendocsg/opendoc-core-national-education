@@ -26,13 +26,13 @@ folders:
     order:
       - main.md
   - name: 01_defence_and_security
-    title: "Part I: Defence and Security"
-    subtitle: ""
+    title: "Defence and Security"
+    subtitle: "Coming Soon!"
     order:
       - 01.md
       - 02.md
   - name: 02_economy
-    title: "Part II: Economy"
+    title: "Economy"
     subtitle: ""
     order:
       - 01.md
@@ -43,7 +43,7 @@ folders:
       - 06.md
       - 07.md
   - name: 03_infrastructure
-    title: "Part III: Infrastructure"
+    title: "Infrastructure"
     subtitle: ""
     order:
       - 01.md
@@ -51,7 +51,7 @@ folders:
       - 03.md
       - 04.md
   - name: 04_society
-    title: "Part IV: Society"
+    title: "Society"
     subtitle: ""
     order:
       - 01.md
