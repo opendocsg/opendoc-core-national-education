@@ -27,7 +27,7 @@ folders:
       - main.md
   - name: 01_defence_and_security
     title: "Defence and Security"
-    subtitle: "Coming Soon!"
+    subtitle: ""
     order:
       - 01.md
       - 02.md
@@ -50,6 +50,7 @@ folders:
       - 02.md
       - 03.md
       - 04.md
+      - 05.md
   - name: 04_society
     title: "Society"
     subtitle: ""
