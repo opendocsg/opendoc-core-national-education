@@ -5,7 +5,7 @@ The content is organised into four key categories – ‘Defence and Security’
 
 * Our fundamentals, national identity and core values – what define Singapore?
 * Our enduring challenges and the new challenges that await us.
-* What we did to succeed against the odds and what we need to progress from here together.
+* What we did to succeed against the odds and what we need to progress together.
 
 **‘Defence and Security’** recounts how our pioneers built our defence and homefront security from scratch in the early days of our independence, to become the professional and competent Singapore Armed Forces and Home Team today. It also discusses how Singapore is transforming itself to meet evolving security challenges.
 
