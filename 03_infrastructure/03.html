@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Urban Planning</title>
+  <meta name="description" content="Urban Planning
+
+
+
+A furry head pops up from the water, eyes darting around and checking for danger. ">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="/opendoc-core-national-education/site.styling_options.logo_path">
+
+  <link rel="icon" href="/opendoc-core-national-education/assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/opendoc-core-national-education/assets/styles/normalize.css">
+  <link rel="stylesheet" href="/opendoc-core-national-education/assets/styles/main.css">
+  <link rel="alternate" type="application/rss+xml" title="SG101"
+    href="/opendoc-core-national-education/feed.xml">
+  <!-- Polyfill for corejs functions, promises, array.includes, array.from, etc. -->
+  <script src="/opendoc-core-national-education/assets/vendor/babel-polyfill.min.js"></script>
+  <!-- Polyfill for dom functions -->
+  <script src="/opendoc-core-national-education/assets/vendor/dom4.js" charset="utf-8"></script>
+  <!-- Polyfill for fetch API -->
+  <script src="/opendoc-core-national-education/assets/vendor/fetch.umd.js"></script>
+  <!-- Priority Queue library for promises -->
+  <script src="/opendoc-core-national-education/assets/js/pqueue.js"></script>
+  <!-- Helper functions that should be preloaded go here -->
+  <script src="/opendoc-core-national-education/assets/js/helpers.js"></script></head>
+
+<body>
+  <div class="site-header no-print">
+    <div class="site-header-left">
+      <a href="/opendoc-core-national-education/">
+        <h1 class="site-header-text">
+          SG101
+        </h1>
+      </a>
+      <span class="site-last-updated">
+        LAST UPDATED: 19 AUGUST 2021
+      <span>
+    </div>
+    <div class="site-header-right"><a id="contact-us" href="https://form.gov.sg/5cee3d46138e3200109244df" target="_blank">
+        <span>Contact Us</span>
+      </a>
+      <a href="/" class="desktop">
+        <img class="agency-logo" src="/opendoc-core-national-education/assets/logo.png">
+      </a>
+      <a href="/opendoc-core-national-education/" class="mobile">
+        <img class="agency-logo" src="/opendoc-core-national-education/assets/logo.png">
+      </a>
+      <a class="search-btn top-mobile-btn">
+        <img src="/opendoc-core-national-education/assets/images/search-icon-dark.svg">
+      </a>
+    </div>
+  </div>
+
+  <nav class="site-nav no-print">
+    <div class="nav-header no-print">
+      <div class="search-box">
+        <div class="search-icon-container search-btn">
+          <img class="search-icon mobile" src="/opendoc-core-national-education/assets/images/search-icon-dark.svg"/>
+          <img class="search-icon" src="/opendoc-core-national-education/assets/images/search-icon-white.svg"/>
+          <img class="close-icon" src="/opendoc-core-national-education/assets/images/close.svg"/>
+        </div>
+        <span class="search-filter hidden">Infrastructure</span>
+        <div class="search-input-container">
+          <p class="search-header">search entire site</p>
+          <input id="search-box" placeholder="Search titles or keywords" type="text" />
+        </div>
+        <label class="clear-button">
+          <svg class="clear-icon" viewBox="0 0 18 18" width="18" height="18">
+            <path d="M2.42755 1L17.0331 15.60554l-1.41423 1.4142L1 2.38402"></path>
+            <path d="M1 15.51932L15.51933 1l1.4142 1.4142L2.2978 17.0331"></path>
+          </svg>
+        </label>
+      </div>
+      <div class="search-results">
+      </div>
+    </div>
+    <div class="nav-main no-print">
+
+    
+
+
+<section class="navigation">
+
+<ul class="table-of-directories hidden">
+                    <li>    <a href="/opendoc-core-national-education/" id="dir_/" class="tod-container">        <div class="directory-item">Introduction</div>    </a>    </li>                    <li>    <a href="/opendoc-core-national-education/01_defence_and_security" id="dir_01_defence_and_security" class="tod-container">        <div class="directory-item">Defence and Security</div>    </a>    </li>                    <li>    <a href="/opendoc-core-national-education/02_economy" id="dir_02_economy" class="tod-container">        <div class="directory-item">Economy</div>    </a>    </li>                    <li>    <a href="/opendoc-core-national-education/03_infrastructure" id="dir_03_infrastructure" class="tod-container">        <div class="directory-item">Infrastructure</div>    </a>    </li>                    <li>    <a href="/opendoc-core-national-education/04_society" id="dir_04_society" class="tod-container">        <div class="directory-item">Society</div>    </a>    </li>
+</ul>
+<div class="back-to-documents">
+    <p>Back to Documents <img class="btn-icon" src="/opendoc-core-national-education/assets/images/chevron-up.svg"></p>
+</div>
+
+
+
+
+    
+    
+    <section id="toc_/" class="contents" hidden>
+    
+    
+
+
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+    
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-core-national-education/main.html" class="nav-link"><span class="directory-item"> What is SG101? </span></a></li></ul>
+    </section>
+
+    
+    
+    <section id="toc_01_defence_and_security" class="contents" hidden>
+    
+    
+
+
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+    
+        
+            
+                
+                
+    
+        
+            
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-core-national-education/01_defence_and_security/01.html" class="nav-link"><span class="directory-item"> Our Fundamentals </span></a></li>  <li class="nav-branch"><a href="/opendoc-core-national-education/01_defence_and_security/02.html" class="nav-link"><span class="directory-item"> Coming Soon! </span></a></li></ul>
+    </section>
+
+    
+    
+    <section id="toc_02_economy" class="contents" hidden>
+    
+    
+
+
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+        
+            
+                
+                
+    
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/02.html" class="nav-link"><span class="directory-item"> Our Fundamentals </span></a></li>  <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/03.html" class="nav-link"><span class="directory-item"> Surviving Our Independence </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/03.html#1959-1965-early-economic-strategies" class="nav-link"><span class="directory-item"> 1959-1965: Early Economic Strategies </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/03.html#1965-1970-singapores-development-plan" class="nav-link"><span class="directory-item"> 1965-1970: Singapore’s Development Plan </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/04.html" class="nav-link"><span class="directory-item"> Growing Our Economy </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/04.html#the-1970s-upgrading-the-economy" class="nav-link"><span class="directory-item"> The 1970s: Upgrading the Economy </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/04.html#1979-to-1984-economic-restructuring" class="nav-link"><span class="directory-item"> 1979 to 1984: Economic Restructuring </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/04.html#1986-to-1996-rebounding-into-a-decade-of-growth" class="nav-link"><span class="directory-item"> 1986 to 1996: Rebounding into a Decade of Growth </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/04.html#1997-to-2009-overcoming-multiple-crises" class="nav-link"><span class="directory-item"> 1997 to 2009: Overcoming Multiple Crises </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/04.html#2010-to-the-present-new-challenges" class="nav-link"><span class="directory-item"> 2010 to the Present: New Challenges </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/05.html" class="nav-link"><span class="directory-item"> Staying Exceptional </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/05.html#staying-open" class="nav-link"><span class="directory-item"> Staying Open </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/05.html#upgrading-our-workers-skills" class="nav-link"><span class="directory-item"> Upgrading our Workers’ Skills </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/05.html#transforming-our-industries" class="nav-link"><span class="directory-item"> Transforming our Industries </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/05.html#strengthening-tripartism" class="nav-link"><span class="directory-item"> Strengthening Tripartism </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/05.html#staying-nimble-and-adaptable-to-change" class="nav-link"><span class="directory-item"> Staying Nimble and Adaptable to Change </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html" class="nav-link"><span class="directory-item"> Digging Deeper: Case Studies </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html#british-military-withdrawal-from-crisis-to-catalyst-for-growth" class="nav-link"><span class="directory-item"> British Military Withdrawal: From Crisis to Catalyst for Growth </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html#jurong-from-swamp-to-suburb" class="nav-link"><span class="directory-item"> Jurong: From Swamp to Suburb </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html#the-1985-recession-growth-interrupted" class="nav-link"><span class="directory-item"> The 1985 Recession: Growth Interrupted </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html#jurong-island-the-chemical-island" class="nav-link"><span class="directory-item"> Jurong Island: The Chemical Island </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html#the-singapore-us-fta-sealed-over-a-game-of-golf" class="nav-link"><span class="directory-item"> The Singapore-US FTA: Sealed Over a Game of Golf </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html#asean-economic-community-forging-closer-ties" class="nav-link"><span class="directory-item"> ASEAN Economic Community: Forging Closer Ties </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/06.html#agritech-in-singapore-achieving-food-and-economic-security" class="nav-link"><span class="directory-item"> Agritech in Singapore: Achieving Food and Economic Security </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/02_economy/07.html" class="nav-link"><span class="directory-item"> Bibliography </span></a></li></ul>
+    </section>
+
+    
+    
+    <section id="toc_03_infrastructure" class="contents">
+    
+    
+
+
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+    
+        
+            
+                
+                
+    
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/01.html" class="nav-link"><span class="directory-item"> Our Fundamentals </span></a></li>  <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/02.html" class="nav-link"><span class="directory-item"> Resource Constraints and Challenges </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/02.html#resource-innovation" class="nav-link"><span class="directory-item"> Resource Innovation </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/02.html#thinking-long-term" class="nav-link"><span class="directory-item"> Thinking Long-Term </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/02.html#civic-ownership" class="nav-link"><span class="directory-item"> Civic Ownership </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/02.html#adapting-to-changes" class="nav-link"><span class="directory-item"> Adapting to Changes </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/02.html#conclusion" class="nav-link"><span class="directory-item"> Conclusion </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/03.html" class="nav-link"><span class="directory-item"> Urban Planning </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/03.html#thinking-long-term" class="nav-link"><span class="directory-item"> Thinking Long-Term </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/03.html#creating-a-sustainable-economy" class="nav-link"><span class="directory-item"> Creating a Sustainable Economy </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/03.html#engaging-the-community" class="nav-link"><span class="directory-item"> Engaging the Community </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/03.html#preserving-a-unique-national-identity" class="nav-link"><span class="directory-item"> Preserving a Unique National Identity </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/03.html#conclusion" class="nav-link"><span class="directory-item"> Conclusion </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/04.html" class="nav-link"><span class="directory-item"> Digging Deeper: Case Studies (Resources) </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/04.html#energy" class="nav-link"><span class="directory-item"> Energy </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/04.html#sand" class="nav-link"><span class="directory-item"> Sand </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/04.html#waste-management" class="nav-link"><span class="directory-item"> Waste Management </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/05.html" class="nav-link"><span class="directory-item"> Digging Deeper: Case Studies (Urban Planning) </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/05.html#public-transport-network" class="nav-link"><span class="directory-item"> Public Transport Network </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/05.html#green-and-blue-spaces" class="nav-link"><span class="directory-item"> Green and Blue Spaces </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/03_infrastructure/05.html#placemaking" class="nav-link"><span class="directory-item"> Placemaking </span></a></li>    </ul>  </li></ul>
+    </section>
+
+    
+    
+    <section id="toc_04_society" class="contents" hidden>
+    
+    
+
+
+            
+
+    
+        
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+
+
+    
+        
+            
+                
+                
+    
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+    
+
+
+
+<ul class="table-of-contents">  <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/01.html" class="nav-link"><span class="directory-item"> Our Fundamentals </span></a></li>  <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/02.html" class="nav-link"><span class="directory-item"> Building a Multicultural Singapore </span></a></li>  <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/03.html" class="nav-link"><span class="directory-item"> Creating a Shared Identity as Singaporeans </span></a></li>  <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/04.html" class="nav-link"><span class="directory-item"> Building and Maintaining a Caring Society </span></a></li>  <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/05.html" class="nav-link"><span class="directory-item"> Examples </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/05.html#racial-riots-1964-and-1969" class="nav-link"><span class="directory-item"> Racial Riots (1964 and 1969) </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/05.html#hdb-ethnic-integration-policy-1989" class="nav-link"><span class="directory-item"> HDB Ethnic Integration Policy (1989) </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/05.html#inter-racial-and-religious-confidence-circle" class="nav-link"><span class="directory-item"> Inter-Racial and Religious Confidence Circle </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/05.html#integrating-new-citizens" class="nav-link"><span class="directory-item"> Integrating New Citizens </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/05.html#striving-towards-a-multi-abled-singapore" class="nav-link"><span class="directory-item"> Striving towards a Multi-Abled Singapore </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/05.html#volunteerism-in-singapore" class="nav-link"><span class="directory-item"> Volunteerism in Singapore </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/06.html" class="nav-link"><span class="directory-item"> Digging Deeper: Case Studies </span></a>    <ul>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/06.html#special-assistance-plan-schools" class="nav-link"><span class="directory-item"> Special Assistance Plan Schools </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/06.html#learning-from-recent-racial-incidents" class="nav-link"><span class="directory-item"> Learning from Recent Racial Incidents </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/06.html#singlish-and-our-national-identity" class="nav-link"><span class="directory-item"> Singlish and our National Identity </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/06.html#unesco-bids-and-our-heritage" class="nav-link"><span class="directory-item"> UNESCO Bids and Our Heritage </span></a></li>      <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/06.html#covid-19" class="nav-link"><span class="directory-item"> COVID-19 </span></a></li>    </ul>  </li>  <li class="nav-branch"><a href="/opendoc-core-national-education/04_society/07.html" class="nav-link"><span class="directory-item"> Bibliography </span></a></li></ul>
+    </section>
+
+</section></div>
+  </nav><div id="index-div">
+  <header class="doc-header no-print">
+    <div class=description-container>
+      <h2 id="document-title">
+        Infrastructure
+      </h2>
+      <div>
+        <div id="document-subtitle">
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar-container no-print">
+    <label for="menu-toggle" class="toolbar-button" id="menu-toggle-btn">
+            <input type="checkbox" id="menu-toggle" hidden>
+            <img class="btn-icon" src="/opendoc-core-national-education/assets/images/sidebar.svg">
+            <img class="btn-icon hover" src="/opendoc-core-national-education/assets/images/sidebar-hover.svg">
+            <img class="mobile-btn-icon " src="/opendoc-core-national-education/assets/images/menu.svg">
+            <img class="mobile-btn-icon close" src="/opendoc-core-national-education/assets/images/x-mobile.svg">
+            <div class="tooltip">Toggle Sidebar</div>
+        </label><div class="toolbar-button print-btn">
+            <img class="btn-icon" src="/opendoc-core-national-education/assets/images/pdf.svg">
+            <img class="btn-icon hover" src="/opendoc-core-national-education/assets/images/pdf-hover.svg">
+            <div class="tooltip">Save as PDF</div>
+        </div></div>
+
+<div class="fab no-print" id="fab">
+    <div class="overlay" id="fab-overlay"></div>
+    <div class="back-to-top hidden" id="back-to-top" href="#">
+        <img class="btn-icon" src="/opendoc-core-national-education/assets/images/chevron-up-white.svg">
+    </div>
+    <div class="trigger" id="fab-trigger">
+        <img class="btn-icon" src="/opendoc-core-national-education/assets/images/vertical-dots.svg">
+        <img class="btn-icon close" src="/opendoc-core-national-education/assets/images/x-mobile.svg">
+    </div>
+    <div class="actions"><a class="action feedback-btn" href="https://form.gov.sg/5cee3d46138e3200109244df" target="_blank">
+            <img class="btn-icon" src="/opendoc-core-national-education/assets/images/feedback.svg">
+            <div class="tooltip">Feedback</div>
+        </a>
+        <div class="action share-btn">
+            <img class="btn-icon" src="/opendoc-core-national-education/assets/images/share.svg">
+            <div class="tooltip">Share</div>
+        </div>
+        <div class="action print-btn">
+                <img class="btn-icon" src="/opendoc-core-national-education/assets/images/pdf.svg">
+                <div class="tooltip">Save as PDF</div>
+            </div></div>
+</div>
+  </div>
+
+  <main class="site-main" id="main-content" aria-label="Content"><h1 id="urban-planning">Urban Planning</h1>
+
+<p><img src="/assets/up-1.png" alt="" /></p>
+
+<p>A furry head pops up from the water, eyes darting around and checking for danger. It sniffs the air and gives the all-clear to the rest of his troop. One by one, the rest of the otter family pop their heads up, weaving their bodies through the clear waters at Kallang River, drawing delighted squeals from the families walking nearby.</p>
+
+<p>It is not uncommon to spot the family of otters in the Kallang River. But they are not the only reason why Singaporeans often head down to walk by the riverside. For many, taking a walk along the water’s edge helps calm frazzled nerves, while the fresh air provides respite for the ragged urbanite.</p>
+
+<p>It was not always this case. In the 1970s, the Kallang River was more known for its stench than its sights. The sludge-filled water carried chicken carcasses, rotting fruit and a foul stench that blanketed the area. Similarly, most other waterways in Singapore were also heavily polluted.</p>
+
+<p><img src="/assets/up-2.png" alt="" />
+<em>Images: Kallang River before the clean-up / NAS</em></p>
+
+<p>It took an order by then-Prime Minister Lee Kuan Yew to start a national effort to clean up the waterways around the island. Instead of dead animals, he wanted the rivers and canals to have “more or less clean, translucent water, where fish, water lilies, and other water plants [could] grow, and [for] both sides of the waterway [to] be planted with trees, like willow”. After decades of cleaning, we now have waters so clean that a wide range of animal and plant life thriving in our rivers and waterways.</p>
+
+<p><img src="/assets/up-3.png" alt="" />
+<em>Image: Kallang River today / Wikipedia Commons and PUB</em></p>
+
+<p>The transformation of Singapore’s waterways from polluted to pristine is an example of how the Government has made it a priority to ensure that Singapore remains a safe and comfortable home for more than three million Singaporeans.</p>
+
+<p>The transformation did not, however, take place overnight. It took decades of meticulous planning, targeted execution and an ambitious vision. To this end, four factors have enabled Singapore to become an urban oasis.</p>
+
+<p><img src="/assets/up-4.png" alt="" /></p>
+
+<h2 id="thinking-long-term">Thinking Long-Term</h2>
+
+<p><img src="/assets/up-5.png" alt="" /></p>
+
+<p>Singapore’s limited space means that we cannot afford to use our land haphazardly. Our urban planning approach has to optimise the scarce land we have to meet diverse needs, including housing, industries, green areas and recreation.</p>
+
+<p>To this end, the Government has taken an integrated and long-term approach to urban planning – the Concept Plan and the Master Plan.</p>
+
+<p>As the strategic land use and transportation plan that provides broad guidelines for Singapore’s physical development over the next 40 to 50 years, the Concept Plan provides the overall strategy. Its goal is to ensure sufficient space to support long-term population growth, economic development, and a good living environment.</p>
+
+<p><img src="/assets/up-6.png" alt="" />
+<em>Image: <a href="http://www.scp.com/page.aspx?s=en&amp;cid=19&amp;id=450">Singapore Concept Plans</a></em></p>
+
+<p>Singapore’s first Concept Plan was published in 1971. The plan was a mammoth effort, involving more than 100 local and overseas urban planners, architects, civil servants and academics between 1967 and 1969. It laid the foundations of the land needs for the young nation, setting out the principles for developing housing estates, recreational spaces and industrial estates. Its legacies continue to this day, more than 50 years after the plan was published.</p>
+
+<p><img src="/assets/up-7.png" alt="" />
+<em>Image: 1971 Concept Plan / URA</em></p>
+
+<p>The Concept Plan set in place critical infrastructures instrumental to Singapore’s economic growth. This included the construction of Changi Airport, which opened in 1981, a Mass Rapid Transit (MRT) system, and a network of expressways. The plan also earmarked the Central Area as the Central Business District (CBD).</p>
+
+<p>The second Concept Plan, published in 2001, focused on creating an island city that balanced work, play, culture and commerce. It proposed developing commercial corridors in different parts of the island to bring jobs closer to homes. One of Singapore’s most significant economic engines – Jurong Island – was also borne from this plan.</p>
+
+<hr />
+
+<h3 id="example-jurong-island"><strong>Example: Jurong Island</strong></h3>
+
+<p><img src="/assets/up-8.png" alt="" />
+<em>Image: Jurong Island / EDB</em></p>
+
+<p>The idea of constructing Jurong Island came about in the 1980s with the plan to establish Singapore as a leading petrochemicals hub.This would reduce the economy’s dependence on electronics manufacturing and strengthen Singapore’s position as a top oil refining centre. But more land was needed to build up the country’s petroleum and petrochemicals industry. The Government subsequently began reclaiming land off Singapore’s southwestern islands.</p>
+
+<p>The plan was to merge seven existing islands (Pulau Merlimau, Pulau Ayer Chawan, Pulau Ayer Merbau, Pulau Seraya, Pulau Sakra, Pulau Pesek, and Pulau Pesek Kecil) into one. The project, built at more than $7 billion, involved massive dredging to triple 10 square km of usable space to 32 square km.</p>
+
+<p>The engineering feat was achieved after meticulous planning. The engineers put together a detailed blueprint to maximise project efficiency and minimise costs. The designers planned shared facilities, centralised logistics, and common corridors.</p>
+
+<p>Reclamation works for Jurong Island began in 1995 – the project was so ambitious that it was initially estimated that the project could be completed only by 2030. But the detailed planning and creative engineering helped speed up the process. The island was fully reclaimed by 2009 – 20 years ahead of schedule.</p>
+
+<p>Jurong Island houses the biggest petrochemicals companies globally in an integrated facility that combines the different parts of the chemicals supply chain. Since the official opening in 2000, Jurong Island has attracted over $50 billion worth of investments.</p>
+
+<hr />
+
+<p>The latest Concept Plan, published in 2011, looks further into the future, with an eye on providing and sustaining a high-quality living environment for future generations of Singaporeans. The plan sets out parameters for providing affordable homes, enhancing mobility with greater transport connectivity and growing an economy with good jobs.</p>
+
+<p>While the Concept Plan takes care of the broad, long-term strategies, the Master Plan goes into detail. It focuses on the medium-term and is reviewed once every five years, guiding Singapore’s development over the next 10 to 15 years. The plan lays out the specifics for individual plots of land.</p>
+
+<p><img src="/assets/up-9.png" alt="" />
+<em>Image: 1958 Master Plan / URA</em></p>
+
+<p>For example, the 2003 Master Plan focused on enhancing and protecting Singapore’s natural and heritage sites. The Southern Ridges – completed in 2008 – is one such example, when the plan first conceived linking various hill parks with the construction of two iconic bridges.</p>
+
+<p><img src="/assets/up-10.png" alt="" />
+<em>Images: Southern Ridges / NParks and Extract from Master Plan 2003 / NAS</em></p>
+
+<p>This approach to long-term planning is a crucial reason we can develop our tiny island with an eye on the future. Likewise, our approach to planning was also a key factor that led to our public transport network development. We have had to project into the future – a process that requires us to think beyond our present needs.</p>
+
+<p><a href="https://"><img src="/assets/up-pubtrans.gif" alt="" /></a> <insert link=""></insert></p>
+
+<h2 id="creating-a-sustainable-economy">Creating a Sustainable Economy</h2>
+
+<p>While the immediate priority upon independence was to create jobs and kick-start a stuttering economy, it was clear from the outset that Singapore could not pursue “growth at all costs” and ignore the trade-offs.</p>
+
+<p>Singapore was committed to sustainable development from the start. With our small land area, we simply cannot afford to implement a development model that placed economic growth over the environment. The “develop first, clean up later” model could permanently scar whatever little land we had – a risk that the Government was unwilling to take. Instead, the Government took the more challenging route by making economic decisions with the environment in mind.</p>
+
+<p><img src="/assets/up-11.png" alt="" /></p>
+
+<p>For instance, when giant Japanese corporation Sumitomo wanted to build Singapore’s first petrochemical plant in the mid-1970s, the Government insisted that it met specific environmental requirements. Sumitomo protested, arguing that such an approach would be costly. Despite the risk of losing a critical foreign investment, the Government did not budge. Eventually, Sumitomo relented.</p>
+
+<p>The Government also located industries in the west of Singapore, where there were few residential estates.</p>
+
+<p>There were also practical considerations to wanting a “Clean and Green” environment. For one thing, it allowed us to stand out from our neighbours, especially when it comes to tourism and attracting global talent.</p>
+
+<p><img src="/assets/up-12.png" alt="" /></p>
+
+<p>Today, being clean and green is more than just about keeping our roads free from litter and our air unpolluted. Climate change is one of our biggest challenges, and it is one that the Government is paying close attention to. As an island, the rise of sea levels will have deep impacts on our living environment, making climate change an existential issue. In 1992, the Government released the Singapore Green Plan (SGP) – its first formal plan to balance environmental and developmental needs. The plan has since gone through two more versions: SGP 2012 and SGP 2030.</p>
+
+<p>SGP 2030, pictured below, is a wide-ranging plan that will see Singapore adopt green initiatives across all sectors of society. This will range from schools going carbon neutral to establishing Singapore as a leading centre for green finance. It will look to secure “a Singapore for our future generations,” as PM Lee Hsien Loong said.</p>
+
+<p><img src="/assets/up-13.png" alt="" />
+<em>Image: SG Green Plan</em></p>
+
+<p><a href="https://"><img src="/assets/up-greenblue.gif" alt="" /></a> <insert link=""></insert></p>
+
+<h2 id="engaging-the-community">Engaging the Community</h2>
+
+<p><img src="/assets/up-14.png" alt="" /></p>
+
+<p>Citizens play a crucial role in Singapore’s urban planning approach. In his 2011 National Day Rally Speech, Prime Minister Lee Hsien Loong had said the country needed ‘active citizens’ to change Singapore for the better.</p>
+
+<p>As more Singaporeans become more educated and informed, they also want to be more involved in the country’s development.  The Government started taking on a more consultative approach when it came to involving citizens in shaping our island and its development.</p>
+
+<p>One example was the 2001 Concept Plan. While conceptualising past Master and Concept Plans previously involved only the likes of professionals, academics and the Government, citizens were now roped into the planning process. An extensive public consultation exercise was carried out with the formation of two focus groups that comprised everyday Singaporeans such as working professionals, grassroots members and students. These groups explored two things: balancing Singapore’s scarce land resources and preserving our identity through heritage sites.</p>
+
+<p><img src="/assets/up-15.png" alt="" />
+<em>Image: URA Singapore City Gallery</em></p>
+
+<p>The preservation of the Chek Jawa coastal wetlands was a result of this consultative approach. When its eastern tip was slated for reclamation, a public forum hosted by the URA in 2001 debated on this issue, arguing that the move would destroy much of the rich biodiversity found there.  Reclaiming Chek Jawa would also adversely impact existing natural eco-systems in the east of Pulau Ubin – an island known for its rich natural heritage.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NvhntoAcsJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>A public campaign to save Chek Jawa ensued. Singaporeans wrote into the press and ministries, and the MND conducted a public feedback forum where nature groups voiced their concerns. They also submitted alternative proposals backed by scientific arguments.</p>
+
+<p>On 20 December 2001, then-Minister for National Development Mah Bow Tan also held dialogues with several nature groups to discuss saving Chek Jawa’s wildlife. MND then decided to defer the reclamation project and consult with experts on the solutions to protect the marine life in the area.</p>
+
+<p><img src="/assets/up-16.png" alt="" />
+<em>Image: Minister Mah Bow Tan addressing the crowd and Chek Jawa / Wikipedia</em></p>
+
+<p>Instead, plans were drawn up to protect and preserve the biodiversity at Chek Jawa. The Government spent $6.2 million to build boardwalks, a viewing tower and a visiting centre that allowed the public to visit Chek Jawa without harming the fragile eco-system there.</p>
+
+<p><img src="/assets/up-25.png" alt="" />
+<em>Image: Chek Jawa / Visit Singapore</em></p>
+
+<p>Over the years, many groups of Singaporeans have also volunteered for coastal clean-ups and to preserve the biodiversity in Chek Jawa. It is a space that has enabled environmental stewardship, particularly amongst the youth, and helped cultivate love and appreciation for nature. It is this passionate activism that has also helped protect wildlife in the fragile ecospheres in the Chek Jawa inter-tidal zones.</p>
+
+<p><img src="/assets/up-17.png" alt="" />
+<em>Images: Environmental Activism / Climate Conversations and International Coastal Cleanup Singapore</em></p>
+
+<h2 id="preserving-a-unique-national-identity">Preserving a Unique National Identity</h2>
+
+<p><img src="/assets/up-18.png" alt="" /></p>
+
+<p>Over the decades, conserving historic buildings has become an important component in Singapore’s urban planning. As an essential part of our nation’s heritage and cultural identity, these buildings remind us of what came before.</p>
+
+<p><img src="/assets/up-19.png" alt="" />
+<em>Images: National Museum of Singapore/NHB and Shophouses/STB</em></p>
+
+<p>In the early years of nation-building, economic development and housing were Singapore’s priorities. Many historical buildings were torn down as part of urban renewal.</p>
+
+<p>But the Government recognised that our buildings are a critical part of our heritage and that there is a need to preserve them for future generations.</p>
+
+<p><img src="/assets/up-20.png" alt="" /></p>
+
+<p>In 1971, the Government passed the Preservation of Monuments Act, a move to conserve historic sites and monuments. The newly created Preservation of Monuments Board (PMB) would be the authoritative body in charge. By 1973, the board had already placed the first eight buildings under its protection. This included the St. Andrew’s Cathedral, Telok Ayer Market (Lau Pa Sat), and Sri Mariamman Temple.</p>
+
+<p><img src="/assets/up-21.png" alt="" />
+<em>Images: Lau Pa Sat and Sri Mariamman Temple / VisitSingapore</em></p>
+
+<p>In 1986, the URA launched its Conservation Master Plan. It earmarked six historical areas such as Chinatown and Little India for conservation.  Previously, conservation efforts were made only for individual buildings. Conserving these historical and ethnic districts strengthened the nation’s social fabric, as they represent Singapore’s ethnic groups and reflect their importance to Singapore’s multicultural heritage. Conserving these sites also gives Singapore’s cityscape its unique identity.</p>
+
+<p>But there have been times where the Government has had to make a difficult choice between development and conservation. This happened in 2000 when it was announced that the former National Library building at Stamford Road had to be demolished. The move was to make way for constructing a tunnel that would alleviate the heavy traffic between the Marina and Orchard area.</p>
+
+<p><img src="/assets/up-22.png" alt="" />
+<em>Images: Old National Library / NAS</em></p>
+
+<p>The decision sparked public debate. Many opposed the move, as the red-bricked building was an iconic landmark for many Singaporeans. After exploring various alternatives, such as expanding Stamford Road to allow more traffic flow and digging a deeper tunnel that would leave the library untouched, the Government concluded that removing the building remained the best option. In 2004, the building was torn down.</p>
+
+<p>This difficult decision illustrates the complexity in deeming what to conserve in Singapore. On the one hand, culture and history are important; on the other, there is the constant need to grow our economy and develop the country’s infrastructure. Balancing both sides is not an easy task and requires trade-offs. Nevertheless, we have tried to preserve important historical sites even as we continue to renew our built environment.</p>
+
+<p>To date, the Urban Redevelopment Authority has given conservation status to over 7,000 buildings in Singapore.  Many of them have been repurposed for Singaporeans to now enjoy. Examples include the Warehouse Hotel – formerly a warehouse dating back to 1895 – and the Jurong Town Hall, Jurong Town Corporation’s former headquarters, which is now home to the Trade Association Hub.</p>
+
+<p><img src="/assets/up-23.png" alt="" />
+<em>Images: Warehouse Hotel / URA and Old Warehouse along Robertson Quay / NAS</em></p>
+
+<p><img src="/assets/up-24.png" alt="" />
+<em>Images: Jurong Town Hall / URA</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>“Using a collaborative approach involving government organisations, the public, and developers, the Island Republic’s Urban Redevelopment Authority has achieved a balance between free-market economics and cultural conservation”, stated a jury from the Asia-Pacific Urban Land Institute in 2006 when it commended URA for its conservation programme. 
+</code></pre></div></div>
+
+<p>Preserving the unique character of our physical landscape also entails creating a sense of place – a place for the community to gather, interact and grow. Singapore’s efforts to develop spaces for communities has grown beyond simply creating functional spaces and towards the idea of placemaking.</p>
+
+<p><a href="https://"><img src="/assets/up-placemake.gif" alt="" /></a> <insertlink></insertlink></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Building a home is more than erecting four walls, constructing a roof and laying out a floor. A home is filled with people, memories and a space that evokes a sense of place.</p>
+
+<p>With some planning, a dose of imagination and a firm commitment to carry through our plans, we hope our tiny island can continue to be a home that we will all enjoy and love for ourselves and future generations of Singaporeans.</p>
+
+
+
+  </main>
+  <div class="site-branding no-print">
+    Powered by <a href="https://opendoc.sg"><img src="/opendoc-core-national-education/assets/images/opendoc-logo-full.svg"></a>
+  </div>
+
+  <script src="/opendoc-core-national-education/assets/vendor/jump.min.js" charset="utf-8"></script>
+  <script src="/opendoc-core-national-education/assets/vendor/headroom.min.js" charset="utf-8"></script>
+  <script src="/opendoc-core-national-education/assets/vendor/mark.min.js" charset="utf-8"></script>
+  <script src="/opendoc-core-national-education/assets/vendor/web-share-shim.bundle.min.js"></script>
+  <script src="/opendoc-core-national-education/assets/js/toolbar.js"></script>
+  <script src="/opendoc-core-national-education/assets/js/page-index.js"></script>
+  <script src="/opendoc-core-national-education/assets/js/pre-loader.js"></script>
+  <script src="/opendoc-core-national-education/assets/js/lunr.min.js"></script>
+  <script src="/opendoc-core-national-education/assets/js/search.js"></script>
+  <script src="/opendoc-core-national-education/assets/js/header.js"></script>
+  <script src="/opendoc-core-national-education/assets/js/navigation.js"></script>
+</body>
+
+</html>
